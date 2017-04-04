@@ -254,5 +254,5 @@ if __name__ == "__main__":
 		time.sleep(3)
 	pygame.display.update()
 	pygame.quit()
-	quit()
+	# quit() # not required
 
