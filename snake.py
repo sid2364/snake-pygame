@@ -1,5 +1,6 @@
 '''
-Run: python game.py to play
+To play the game: python game.py
+Packaged using cx_Freeze maintained by Anthony Tuininga (anthony.tuininga@gmail.com): python setup.py build
 '''
 
 import pygame
