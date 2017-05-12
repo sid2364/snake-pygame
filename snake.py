@@ -39,7 +39,7 @@ beatHighScore = False
 try:
 	fp = open(scoreFile, "r")
 	newHighScore = oldHighScore = int(fp.read())
-except IOError, e:
+except (IOError, ValueError), e:
 	fp = open(scoreFile, "w")
 	newHighScore = oldHighScore = 0
 
